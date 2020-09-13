@@ -14,6 +14,12 @@ public class Application {
         Square squares[] = new Square[5];
         Triangle triangle = new Triangle(10, 20);
 
+        squares[0] = new Square(4);
+        squares[1] = new Square(4);
+        squares[2] = new Square(4);
+        squares[3] = new Square(4);
+        squares[4] = new Square(4);
+
 
         printFigure(circle1);
         printFigure(rectangle);

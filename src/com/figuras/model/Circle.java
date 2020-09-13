@@ -7,12 +7,10 @@ public class Circle {
         this.radio = radio;
     }
 
-    public double getArea(){
-        return 0;
-    }
+    public double getArea(){ return Math.PI * Math.pow(radio,2); }
 
     public void draw(){
-        System.out.println("Circulo");
+        System.out.println("Circle");
     }
 
 }
